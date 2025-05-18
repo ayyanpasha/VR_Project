@@ -4,6 +4,7 @@ from PIL import Image
 from tqdm import tqdm
 import torch
 from peft import PeftModel
+import os
 
 # Example: Using transformers pipeline for VQA (replace with your model as needed)
 from transformers import ViltProcessor, ViltForQuestionAnswering, ViltConfig
